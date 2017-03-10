@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Hiker Stream Website">
+	  <meta name="keywords" content="Hiker, Hiker Stream HikerStream">
+  	<meta name="author" content="Larry Singleton">
+    <title>Hiker Stream | About</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+  </head>
+  <body>
+    <header>
+         <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img/login.png" alt="Avatar" class="avatar" width="100px" height="100px">
+    </div>
+
+    <div class="container">
+      <p><label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required></p>
+
+      <p><label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required></p>
+
+      <p><button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me</p>
+    </div>
+
+    <div class="container" style="background-color:#161616">
+      <p><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button></p>
+      <p><span class="psw">Forgot <a href="#">password?</a></span></p>
+    </div>
+  </form>
+</div>
+      <div class="container">
+        <div id="main-nav">
+          <h1><span class="highlight">Hiker Stream</span> Adventure Guides</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="trails.html">Trails</a></li>
+            <li><a href="equipment.html">Equipment</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+            <li><a href="staff.html">Staff</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>Hiker Stream</h1>
+        <p>Morbi massa nibh a, placerat sollicitudin duis vitae conubia condimentum, aliquet lectus ante vulputate et felis. At egestas enim lorem amet sapien, tincidunt nunc vel vitae fringilla aenean. Et varius adipiscing, justo diam do vel, faucibus ut eleifend lacus. Duis luctus vel vel. Ut tincidunt, ante libero donec morbi urna nullam congue. </p>
+      </div>
+      </section>
+      <section id="newsletter">
+      <div class="container">
+        <h1></h1>
+        <form>
+       <!-- Form Items Removed to for visual effects -->     
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="containerserv" align="center">
+        <article id="main-colserv">
+          <h1 class="page-title">Services</h1>
+          <ul id="services">
+            <li>
+              <h3>Equipment Inspections</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+						  <p>Pricing: Free</p>
+            </li>
+            <li>
+              <h3>Shake Downs</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+						  <p>Pricing: Free</p>
+            </li>
+            <li>
+              <h3>Making mistakes on your own</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+						  <p>Pricing: $25 per Mistake</p>
+            </li>
+          </ul>
+          </article>
+    </section>
+              <div class="resites h1">
+
+             <h1 align="center">Recommended Sites</h1></div>
+              <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <a href="https://www.rei.com/"><img src="./img/rei.png" alt="Boots"></a>
+              <h3>R E I</h3>
+          <p>The most helpful outdoors site and people around. Start here first. They generally have very knowledgeable people and are very insightful.</p>
+        </div>
+        <div class="box">
+          <a href="http://www.zpacks.com"><img src="./img/zpacks.png" alt="Navigation"></a>
+          <h3>Zpacks</h3>
+          <p>The Ultimate in lightweight gear. These guys set the standard for light weight equipment!</p>
+        </div>
+        <div class="box">
+          <a href="http://www.seatosummit.com"><img src="./img/s2s.png" alt="Equipment"></a>
+          <h3>Sea to Summit</h3>
+          <p>The best waterproof gear available! Their gear is top notch, but you have to be specific with them. </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Hiker Stream, Copyright &copy; 2017</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Hiker Stream Website">
+	  <meta name="keywords" content="Hiker, Hiker Stream HikerStream">
+  	<meta name="author" content="Larry Singleton">
+    <title>Hiker Stream | About</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+  </head>
+  <body>
+      
+      
+    <header>
+        
+              
+ <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img/login.png" alt="Avatar" class="avatar" width="100px" height="100px">
+    </div>
+
+    <div class="container">
+      <p><label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required></p>
+
+      <p><label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required></p>
+
+      <p><button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me</p>
+    </div>
+
+    <div class="container" style="background-color:#161616">
+      <p><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button></p>
+      <p><span class="psw">Forgot <a href="#">password?</a></span></p>
+    </div>
+  </form>
+</div>
+        
+        
+      <div class="container">
+        <div id="main-nav">
+            <h1><span class="highlight">Hiker Stream</span> Adventure Guides</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="trails.html">Trails</a></li>
+            <li><a href="equipment.html">Equipment</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="staff.html">Staff</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>Hiker Stream</h1>
+        <p>Lorem ipsum dolor sit amet, tristique senectus diam ante enim. Porttitor luctus cursus parturient magna in. Egestas sit rutrum adipiscing, donec lectus suspendisse posuere, orci amet consectetuer vel litora ut in, et turpis et sem, vestibulum et erat inceptos urna consectetuer mauris. Sed nunc felis sollicitudin nec eget ut, mauris dolor pellentesque dis sed magna pulvinar, felis vestibulum in feugiat quis mauris nisl, pede rhoncus. Erat nec, ipsum ultricies cum nunc, feugiat risus vivamus ligula ornare quam congue, ante lacinia. </p>
+      </div>
+      </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/backpack.png" alt="Hiker Stream">
+              <h3>Hiker Stream</h3>
+          <p>We offer guidence and knowledge to assist the new hiker. From clothes to equipment, terrain and wildlife, we will prepare you for the great outdoors!</p>
+        </div>
+        <div class="box">
+          <img src="./img/compass.png" alt="Locations">
+          <h3>Locations</h3>
+          <p>There are literally thousands of locations to hike, some may even be as close as your backyard. However, twe are only located in one place and that's in Louisville, Kentucky.</p>
+        </div>
+        <div class="box">
+          <img src="./img/equipment.png" alt="Equipment">
+          <h3>Equipment</h3>
+          <p>Proper equipment is a necessity, knowing what is necessary and what is luxury is a must. We will guide you in determining what equipment is good for the type of Adventure you are planning for yourself.</p>
+        </div>
+      </div>
+    </section>
+      
+ <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+      </script>
+
+    <footer>
+      <p>Hiker Stream, Copyright &copy; 2017</p>
+    </footer>
+  </body>
+</html>

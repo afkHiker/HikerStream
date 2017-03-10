@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Hiker Stream Website">
+	  <meta name="keywords" content="Hiker, Hiker Stream HikerStream">
+  	<meta name="author" content="Larry Singleton">
+    <title>Hiker Stream | About</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+  </head>
+  <body>
+    <header>
+         <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img/login.png" alt="Avatar" class="avatar" width="100px" height="100px">
+    </div>
+
+    <div class="container">
+      <p><label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required></p>
+
+      <p><label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required></p>
+
+      <p><button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me</p>
+    </div>
+
+    <div class="container" style="background-color:#161616">
+      <p><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button></p>
+      <p><span class="psw">Forgot <a href="#">password?</a></span></p>
+    </div>
+  </form>
+</div>
+      <div class="container">
+        <div id="main-nav">
+            <h1><span class="highlight">Hiker Stream</span> Adventure Guides</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="trails.html">Trails</a></li>
+            <li><a href="equipment.html">Equipment</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="staff.html">Staff</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="showcase">
+      <div class="container">
+        <h1>Hiker Stream Trails</h1>
+        <p>Our Trail Experiences: Appalachian Trail (AT) | Pacific Crest Trail (PCT) | Pacific Northwest Trail (PNT) | Mountains-to-Sea Trail | The Lost Coast Trail, CA |  Black Angel Trail, NH | Timberline Trail, OR | Pilgrim Creek Trail, WY | The Jewels Route, AZ | Mt. Eielson, AK | Titcomb Basin Trail, WY | Grayson Highlands, VA | and Mt. Whitney, CA </p>
+      </div>
+    </section>
+    <section id="newsletter">
+      <div class="container">
+        <h1></h1>
+        <form>
+       <!-- Form Items Removed to for visual effects -->     
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Trail and Escourt Services</h1>
+          <ul id="services">
+            <li>
+              <h3>Long Distance Trail Escorts</h3>
+              <p>Our Guides will assist you personally from the beginning to the end of your hike. We will keep you from making all the beginners misakes to make your hike more enjoyable. Our Long distance hikers will contact you if this is your choice of needs.</p>
+				<p>Pricing: $250 - $400 per 100 miles</p>
+                <p>Day Hike Pricing: $150 day</p>
+            </li>
+            <li>
+              <h3>Short Distance Trails</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+						  <p>Pricing: $125 day</p>
+            </li>
+            <li>
+              <h3>Day Hikes</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+						  <p>Pricing: $125 per day</p>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Private Escort Quote</h3>
+            <form class="quote">
+  						<div>
+  							<label>Name:</label><br>
+  							<input type="text" placeholder="Name">
+  						</div>
+  						<div>
+  							<label>Email:</label><br>
+  							<input type="email" placeholder="Emial Address">
+  						</div>
+                  						<div>
+  							<label>Trail Name and Starting Location:</label><br>
+  							<textarea placeholder="Specific Information"></textarea>
+  						</div>
+  						<div>
+  							<label>Message:</label><br>
+  							<textarea placeholder="Message"></textarea>
+  						</div>
+  						<button class="button_1" type="submit">Send</button>
+					</form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Hiker Stream, Copyright &copy; 2017</p>
+    </footer>
+  </body>
+</html>
