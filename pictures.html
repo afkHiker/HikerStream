@@ -9,6 +9,13 @@
     <title>Hiker Stream | About</title>
       <link rel="stylesheet" href="./css/style.css">
       <link rel="stylesheet" href="./css/normalize.css">
+      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+      
   </head>
   <body>
 <header>
@@ -49,13 +56,13 @@ class="close" title="Close Modal">&times;</span>
         </div>
         <nav>
           <ul>
-            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="trails.html">Trails</a></li>
             <li><a href="equipment.html">Equipment</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="staff.html">Staff</a></li>
-            <li><a href="pictures.html">Pictures</a></li>
+            <li class="current"><a href="pictures.html">Pictures</a></li>
           </ul>
         </nav>
       </div>
@@ -71,35 +78,26 @@ class="close" title="Close Modal">&times;</span>
 
     <section id="newsletter">
       <div class="container">
-        <h1>Subscribe To Our Newsletter</h1>
-        <form>
-          <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
       </div>
     </section>
+        <div>  
+            <h1 class="NG"><center>A Gallery for your viewing pleasure!</center></h1>
+    <script>
+           jQuery(document).ready(function () {
 
-    <section id="boxes">
-      <div class="container">
-        <div class="box">
-          <img src="./img/backpack.png" alt="Hiker Stream">
-              <h3>Hiker Stream</h3>
-          <p>We offer guidence and knowledge to assist the new hiker. From clothes to equipment, terrain and wildlife, we will prepare you for the great outdoors!</p>
-        </div>
-        <div class="box">
-          <img src="./img/compass.png" alt="Locations">
-          <h3>Locations</h3>
-          <p>There are literally thousands of locations to hike, some may even be as close as your backyard. However, twe are only located in one place and that's in Louisville, Kentucky.</p>
-        </div>
-        <div class="box">
-          <img src="./img/equipment.png" alt="Equipment">
-          <h3>Equipment</h3>
-          <p>Proper equipment is a necessity, knowing what is necessary and what is luxury is a must. We will guide you in determining what equipment is good for the type of Adventure you are planning for yourself.</p>
-        </div>
-      </div>
-    </section>
-      
- <script>
+              jQuery("#my_nanogallery2").nanogallery2({
+                userID: '34858669@N00',
+                kind: 'flickr',
+                thumbnailHeight: 150,
+                thumbnailWidth: 150
+              });
+
+            });
+    </script>
+        </head>
+        <body>
+          <div id="my_nanogallery2">Nano-Gallery2</div>
+            <script>
 // Get the modal
 var modal = document.getElementById('id01');
 
@@ -109,7 +107,7 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-      </script>
+            </script>
 
     <footer>
       <p>Hiker Stream, Copyright &copy; 2017</p>
