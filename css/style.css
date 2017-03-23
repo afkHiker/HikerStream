@@ -357,6 +357,19 @@ header{
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+      .wrapper {
+    width: 1026px;
+    margin: 0 auto;
+  }
+
+.title {
+    font-size: 2em;
+  }
+ nav a {
+    padding: 25px 1%;
+  }
+  
+}
 }
 
 /* ----------- Retina Screens ----------- */
@@ -365,5 +378,18 @@ header{
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
+      .wrapper {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+.title {
+    font-size: 2em;
+  }
+ nav a {
+    padding: 25px 1%;
+  }
+  
+}
 }
 
